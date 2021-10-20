@@ -22,7 +22,7 @@
 
     <!-- Photo -->
     <div class="container shadow-lg mt-5 pt-5 pb-5 ">
-        <div class="row  justify-content-center">
+        <div class="row  justify-content-center align-items-center">
 
             <div class="row col-lg-6 d-none d-lg-block">
                 <img class="" src="img/salade tahitienne.jfif" class="img-fluid" alt="Salade tahitienne">
@@ -48,19 +48,19 @@
                     <label for="plat" class="form-label">Choix du plat</label>
                     <select name="plat" class="form-select" id="plat" required>
 
-                        <option value="">--Plat--</option>
-                        <option value="">Thon rouge</option>
-                        <option value="">Thon blanc</option>
-                        <option value="">Mahi Mahi</option>
+                        <option value selected disabled>--Plat--</option>
+                        <option value="1">Thon rouge</option>
+                        <option value="2">Thon blanc</option>
+                        <option value="3">Mahi Mahi</option>
                     </select>
                     <div class="mb-3">
                         <label for="accompagnement" class="form-label">Choix de l'accompagnement</label>
                         <select class="form-select" name="accompagnement" id="accompagnement" required>
 
-                            <option value="">--Accompagnements--</option>
-                            <option value="">Riz</option>
-                            <option value="">Frites</option>
-                            <option value="">La réponse 3</option>
+                            <option value selected disabled>--Accompagnements--</option>
+                            <option value="1">Riz</option>
+                            <option value="2">Frites</option>
+                            <option value="3">La réponse 3</option>
                         </select>
                     </div>
                 </div>
